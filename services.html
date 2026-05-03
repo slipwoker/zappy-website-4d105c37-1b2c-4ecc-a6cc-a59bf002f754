@@ -241,7 +241,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -318,7 +318,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0585503500" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -327,7 +327,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/logo.webp" alt="בית עולמים" class="logo" />
+        <img src="/assets/logo.webp" alt="בית עולמים" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="/services">שירותים</a></li><li><a href="/about">אודות</a></li></ul></div>
 
@@ -721,7 +721,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0585503500';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -1226,9 +1226,9 @@
 
       <div class="services-cta-actions">
         <a href="/contact" class="btn-primary services-cta-btn-primary">צרו קשר עכשיו</a>
-        <a href="tel:[business_phone]" class="btn-secondary services-cta-btn-secondary">
+        <a href="tel:0585503500" class="btn-secondary services-cta-btn-secondary">
           <svg data-element-type="icon" data-icon-type="svg" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.13 6.13l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-          <span>[business_phone]</span>
+          <span>0585503500</span>
         </a>
       </div>
 
@@ -1249,13 +1249,13 @@
         <!-- Column 1: Company Info -->
         <div class="footer-col footer-col--brand">
           <div class="footer-logo-wrap">
-            <img src="/assets/logo.webp" alt="בית עולמים" class="logo" />
+            <img src="/assets/logo.webp" alt="בית עולמים" class="logo" data-element-type="image" data-element-id="img-1777777233892-v8d0fiyf8" data-zappy-footer-image="true" >
           </div>
           <p class="footer-tagline">ליווי מכבד ומקצועי בשעות הקשות ביותר.<br>אנו כאן עבורכם, בכל עת.</p>
           <div class="footer-social">
-            <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1777777233891-mskc58ltz" data-icon-type="fontawesome"></i></a>
+            <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1777777233891-vzvfnyfv0" data-icon-type="fontawesome" style="font-size: 12px !important; color: rgb(106, 106, 105);"></i></a>
           </div>
         </div>
 
@@ -1274,27 +1274,27 @@
           <h3 class="footer-heading"><span class="footer-heading-accent"></span>יצירת קשר</h3>
           <ul class="footer-contact">
             <li>
-              <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+              <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1777777233891-qmf7ghv0t" data-icon-type="fontawesome"></i></span>
               <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
             </li>
             <li>
-              <span class="contact-icon"><i class="fas fa-phone"></i></span>
-              <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+              <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1777777233891-of7dcjt90" data-icon-type="fontawesome"></i></span>
+              <span class="contact-text"><a href="tel:0585503500">0585503500</a></span>
             </li>
             <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-              <span class="contact-text">[business_address]</span></a></li>
+              <span class="contact-text">בן גוריון 2, גבעת שמואל , מרכז, ישראל</span></a></li>
           </ul>
         </div>
 
         <!-- Column 4: Hours / Trust Block -->
         <div class="footer-col footer-col--hours">
           <h3 class="footer-heading"><span class="footer-heading-accent"></span>זמינות</h3>
-          <p class="footer-hours-label">שירות חירום</p>
-          <p class="footer-hours-value">24 שעות ביממה</p>
-          <p class="footer-hours-label">ימי שני–שישי</p>
-          <p class="footer-hours-value">08:00 – 18:00</p>
-          <p class="footer-hours-label">שישי וערבי חג</p>
-          <p class="footer-hours-value">08:00 – 13:00</p>
+          
+          <p class="footer-hours-value" >24/6 לא בשבת&nbsp;</p>
+          
+          
+          
+          
         </div>
 
       </div>
@@ -1306,15 +1306,15 @@
   <div class="footer-bottom">
     <div class="footer-container">
       <div class="footer-bottom-inner">
-        <p class="footer-copyright">© 2026 בית עולמים. כל הזכויות שמורות.</p>
+        <p class="footer-copyright" >&nbsp;2026 בית עולמים. כל הזכויות שמורות.</p>
         <div class="footer-legal">
-          <a href="/privacy">מדיניות פרטיות</a>
+          <a href="/privacy" >מדיניות פרטיות</a>
           <span class="footer-legal-sep">|</span>
-          <a href="/terms">תנאי שימוש</a>
+          <a href="/terms" >תנאי שימוש</a>
           <span class="footer-legal-sep">|</span>
-          <a href="/accessibility">נגישות</a>
+          <a href="/accessibility" >נגישות</a>
           <span class="footer-legal-sep">|</span>
-          <a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a>
+          <a href="https://zappy5.com" target="_blank" class="zappy-attribution" >נוצר באמצעות Zappy</a>
         </div>
       </div>
     </div>
