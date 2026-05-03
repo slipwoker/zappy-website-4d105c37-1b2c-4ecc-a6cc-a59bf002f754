@@ -1,47 +1,60 @@
-# Business — Generative Engine Optimization Map
+# בית עולמים — Generative Engine Optimization Map
+
+> A Chevra Kadisha (Jewish burial society) organization providing traditional Jewish funeral and burial services. The website needs to present their services in a dignified and respectful manner, with a dynamic service list that can be easily managed — allowing administrators to add or remove services over time without technical assistance.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://beit-olamim.zappy5.app
 בית עולמים מעניק שירותי קבורה ולוויה יהודית מסורתית על פי ההלכה, עם ליווי אישי ומסור לכל משפחה. אנו כאן עבורכם בכל שעה — צרו קשר עוד היום.
 
 ### שירותים
-https://example.com/services
+https://beit-olamim.zappy5.app/services
 מטיפול בנפטר ועד ליווי האבלים — בית עולמים מציעה מגוון שירותי קבורה ולוויה הלכתיים המותאמים לכל משפחה. גלו את רשימת השירותים המלאה שלנו עכשיו.
 
 ### אודות
-https://example.com/about
+https://beit-olamim.zappy5.app/about
 חברה קדישא בית עולמים פועלת מתוך שליחות, מסורת ויראת כבוד לנפטר ולמשפחתו. למדו על הערכים, ההיסטוריה והצוות המסור שהופך כל לוויה לפרידה ראויה.
 
 ### צור קשר
-https://example.com/contact
+https://beit-olamim.zappy5.app/contact
 זקוקים לסיוע דחוף או רוצים לברר פרטים מראש? צוות בית עולמים זמין עבורכם עשרים וארבע שעות ביממה, שבעה ימים בשבוע. צרו קשר עכשיו ותקבלו מענה מיידי.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://beit-olamim.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://beit-olamim.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://beit-olamim.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About בית עולמים
+A Chevra Kadisha (Jewish burial society) organization providing traditional Jewish funeral and burial services. The website needs to present their services in a dignified and respectful manner, with a dynamic service list that can be easily managed — allowing administrators to add or remove services over time without technical assistance.
+
+## Target Audience
+- משפחות שכולות וקהל הזקוק לשירותי קבורה
+- משפחות שכולות
+- מתכנני קהילה מבוגרים
+- ארגונים דתיים
+
+## Industry
+שירותי קבורה ולוויה
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://beit-olamim.zappy5.app/sitemap.xml
+- **Robots.txt**: https://beit-olamim.zappy5.app/robots.txt
